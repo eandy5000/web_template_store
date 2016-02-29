@@ -1,0 +1,45 @@
+[
+
+  {
+    "id":1,
+    "name" : "Blue Theme",
+    "description":"Aenean semper eleifend orci, eu commodo augue ultricies in. Quisque porta orci neque, eget dignissim magna tempor imperdiet. Aliquam quis ornare mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur malesuada est nec tortor congue porttitor. Aliquam hendrerit felis tempor hendrerit rhoncus. Etiam eu viverra massa. Integer lobortis nisl id justo auctor, eget ves",
+    "price": 19.95,
+    "img": "blue5.jpg"
+  },
+  {
+    "id":2,
+    "name" : "Gray Theme",
+    "description":"Aenean semper eleifend orci, eu commodo augue ultricies in. Quisque porta orci neque, eget dignissim magna tempor imperdiet. Aliquam quis ornare mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur malesuada est nec tortor congue porttitor. Aliquam hendrerit felis tempor hendrerit rhoncus. Etiam eu viverra massa. Integer lobortis nisl id justo auctor, eget ves",
+    "price": 9.95,
+    "img": "gray.jpg"
+  },
+  {
+    "id":3,
+    "name" : "Green Theme",
+    "description":"Aenean semper eleifend orci, eu commodo augue ultricies in. Quisque porta orci neque, eget dignissim magna tempor imperdiet. Aliquam quis ornare mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur malesuada est nec tortor congue porttitor. Aliquam hendrerit felis tempor hendrerit rhoncus. Etiam eu viverra massa. Integer lobortis nisl id justo auctor, eget ves",
+    "price": 9.95,
+    "img": "green.jpg"
+  },
+  {
+    "id":4,
+    "name" : "Orange Theme",
+    "description":"Aenean semper eleifend orci, eu commodo augue ultricies in. Quisque porta orci neque, eget dignissim magna tempor imperdiet. Aliquam quis ornare mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur malesuada est nec tortor congue porttitor. Aliquam hendrerit felis tempor hendrerit rhoncus. Etiam eu viverra massa. Integer lobortis nisl id justo auctor, eget ves",
+    "price": 19.95,
+    "img": "orange.jpg"
+  },
+  {
+    "id":5,
+    "name" : "Purple Theme",
+    "description":"Aenean semper eleifend orci, eu commodo augue ultricies in. Quisque porta orci neque, eget dignissim magna tempor imperdiet. Aliquam quis ornare mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur malesuada est nec tortor congue porttitor. Aliquam hendrerit felis tempor hendrerit rhoncus. Etiam eu viverra massa. Integer lobortis nisl id justo auctor, eget ves",
+    "price": 9.95,
+    "img": "purple.jpg"
+  },
+  {
+    "id":6,
+    "name" : "Red Theme",
+    "description":"Aenean semper eleifend orci, eu commodo augue ultricies in. Quisque porta orci neque, eget dignissim magna tempor imperdiet. Aliquam quis ornare mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur malesuada est nec tortor congue porttitor. Aliquam hendrerit felis tempor hendrerit rhoncus. Etiam eu viverra massa. Integer lobortis nisl id justo auctor, eget ves",
+    "price": 9.95,
+    "img": "red.jpg"
+  }
+]

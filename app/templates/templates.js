@@ -1,4 +1,4 @@
-'use strict'
+
 
 angular.module('templateStore.templates', ['ngRoute'])
 
@@ -10,8 +10,22 @@ angular.module('templateStore.templates', ['ngRoute'])
       controller: "TemplatesCtrl"
     })
 
+    .when('/templates/:templateId', {
+      templateUrl: "templates/template-details.html",
+      controller: "TemplatesDetailsCtrl"
+    })
+
 }])
 
-.controller('TemplatesCtrl',['$scope',function($scope){
-  console.log('templates wrking');
+.controller('TemplatesCtrl',['$scope','$http',function($scope, $http){
+  $http.get('./data/templates.json').success(function(data){
+    $scope.templates = data;
+  });
+}])
+
+.controller('TemplatesDetailsCtrl',
+    ['$scope','$http','$routeParams','$filter',function($scope, $http, $routeParams, $filter){
+
+
+
 }]);
