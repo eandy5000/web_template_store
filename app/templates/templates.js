@@ -26,6 +26,15 @@ angular.module('templateStore.templates', ['ngRoute'])
 .controller('TemplatesDetailsCtrl',
     ['$scope','$http','$routeParams','$filter',function($scope, $http, $routeParams, $filter){
 
+      var templateId = $routeParams.templateId;
+
+      $http.get('./data/templates.json').success(function(data){
+        $scope.template = $filter('filter')(data, function(d){
+          return d.id == templateId;
+        })[0];
+        console.log($scope.template);
+      });
+
 
 
 }]);

@@ -2,14 +2,12 @@
   <a href="#/templates">Back</a>
   <br>
   <div class="col-md-4">
-    <img src="img/blue5.jpg" class="img-full"/>
+    <img src="img/{{template.img}}" class="img-full"/>
   </div>
   <div class="col-md-8">
-    <h3>Blue Template</h3>
-    <p>
-      Aenean semper eleifend orci, eu commodo augue ultricies in. Quisque porta orci neque, eget dignissim magna tempor imperdiet. Aliquam quis ornare mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur malesuada est nec tortor congue porttitor. Aliquam hendrerit felis tempor hendrerit rhoncus. Etiam eu viverra massa. Integer lobortis nisl id justo auctor, eget ves
-    </p>
-    <h4>$19.99</h4>
+    <h3>{{template.name}}</h3>
+    <p>{{template.description}}</p>
+    <h4>{{template.price | currency}}</h4>
     buy it
   </div>
 </div>
