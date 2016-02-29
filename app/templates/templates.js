@@ -32,7 +32,7 @@ angular.module('templateStore.templates', ['ngRoute'])
         $scope.template = $filter('filter')(data, function(d){
           return d.id == templateId;
         })[0];
-        console.log($scope.template);
+
       });
 
 
